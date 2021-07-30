@@ -1,0 +1,22 @@
+.detailsContainer {
+  min-width: 100wh;
+  min-height: 100vh;
+  justify-content: center;
+  color: #ffffff;
+  &__information {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+}

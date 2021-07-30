@@ -1,0 +1,23 @@
+.homeContainer {
+  justify-content: space-between;
+
+  .cardGap {
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+}
+
+.buttonsArea {
+  top: 0;
+  position: sticky;
+  width: 100%;
+  height: 10vh;
+  z-index: 1;
+  background-color: var(--App-background);
+  justify-content: center;
+  align-items: center;
+  &__button {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
